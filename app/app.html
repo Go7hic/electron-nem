@@ -13,15 +13,24 @@
 </head>
 <body>
 
-    <div class="container">
-        <h1 id="greet"></h1>
-        <p class="subtitle">
-            Welcome to <a href="http://electron.atom.io" class="js-external-link">Electron</a> app running on this magnificent <strong id="platform-info"></strong> machine.
-        </p>
-        <p class="subtitle">
-            You are in <strong id="env-name"></strong> environment.
-        </p>
+    <div id="title-bar">
+      <div id="title-text"></div>
+      <ul id="window-btns">
+	<li onclick="browserWindow.close();" style="background:rgba(255, 60, 60, 0.5);">x</li>
+        <li onclick="toggleMiniMode();" style="background:rgba(80, 180, 255, 0.5);">=</li>
+        <li id="btn-minimize" onclick="browserWindow.minimize()" style="background:rgba(255,255,255, 0.5);">_</li>
+      </ul>
     </div>
+
+    <webview style="padding-right:15px;" id="webView" preload="hack.js" src="http://music.163.com/#/my"/>
+    <script type="text/javascript">
+    webview = document.getElementById("webView");
+    webview.addEventListener("dom-ready", () =>
+    {
+      //webview.openDevTools();
+
+    });
+    </script>
 
 </body>
 </html>
