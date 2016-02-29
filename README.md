@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 electron-boilerplate
 ==============
 Comprehensive boilerplate application for [Electron runtime](http://electron.atom.io).  
@@ -179,3 +180,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+=======
+# electron-nem
+neteasy music client by electron
+>>>>>>> ccdac48898cfb83f05ce6febdd2089166641aca2
