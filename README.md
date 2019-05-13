@@ -4,6 +4,8 @@ npm start
 
 # License
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dyygtfx/electron-nem.svg)](https://greenkeeper.io/)
+
 The MIT License (MIT)
 
 Copyright (c) 2015-2016 Jakub Szwacz
